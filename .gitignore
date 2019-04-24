@@ -16,3 +16,7 @@ gradle-app.setting
 \.idea/
 
 \.vscode/
+
+bin/
+
+out/
