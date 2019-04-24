@@ -1,7 +1,11 @@
-task("helloworld",{
-    println("I am gradle，hello world")
+task("open-door", {
+    println("open-door")
 })
 
-task("helloworld2",{
-    println("I am gradle，hello world2")
-})
+task("put-elephant", {
+    println("put-elephant")
+}).dependsOn("open-door")
+
+task("close-door", {
+    println("close-door")
+}).dependsOn("put-elephant")
