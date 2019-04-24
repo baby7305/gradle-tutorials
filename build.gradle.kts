@@ -13,5 +13,5 @@ dependencies {
 }
 
 application {
-    mainClassName = "demo.App"
+    mainClassName = "com.actia.vehicle.app.App"
 }
