@@ -3,6 +3,8 @@ plugins {
 }
 
 task("getname", {
+    inputs.dir("src");
+    outputs.file("info.txt")
     doFirst {
         var srcdir = fileTree("src")
         var infotext = file("info.txt")
