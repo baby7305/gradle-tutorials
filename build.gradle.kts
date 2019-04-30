@@ -1,11 +1,17 @@
 task("open-door", {
-    println("open-door")
+    doFirst {
+        println("open-door")
+    }
 })
 
 task("put-elephant", {
-    println("put-elephant")
+    doFirst {
+        println("put-elephant")
+    }
 }).dependsOn("open-door")
 
 task("close-door", {
-    println("close-door")
+    doFirst {
+        println("close-door")
+    }
 }).dependsOn("put-elephant")
