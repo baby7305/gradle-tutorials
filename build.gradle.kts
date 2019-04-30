@@ -15,3 +15,9 @@ task("close-door", {
         println("close-door")
     }
 }).dependsOn("put-elephant")
+
+task("haha",{
+    var haha="baby" //扫描时执行
+    doFirst {}      //运行时执行
+    doLast {}       //运行时执行
+})
