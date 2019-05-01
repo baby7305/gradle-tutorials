@@ -9,7 +9,7 @@ application {
     mainClassName = "com.actia.vehicle.app.MainKt"
 }
 dependencies {
-    compile(kotlin("stdlib"))
+    compile(kotlin("stdlib-jdk8"))
 }
 repositories {
     mavenCentral()
