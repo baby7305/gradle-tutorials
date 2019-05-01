@@ -10,6 +10,7 @@ application {
 }
 dependencies {
     compile(kotlin("stdlib-jdk8"))
+    compile("commons-httpclient","commons-httpclient","3.1")
 }
 repositories {
     mavenCentral()
